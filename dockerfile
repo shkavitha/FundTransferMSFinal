@@ -1,5 +1,5 @@
 # Use an OpenJDK 17 image as the base
-FROM openjdk:17-jdk-slim
+FROM 522814707388.dkr.ecr.us-east-2.amazonaws.com/java-image:17-jdk-slim
 
 # Set the working directory in the container
 WORKDIR /app
